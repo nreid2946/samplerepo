@@ -21,4 +21,4 @@ def age(self):
     return int(age_in_years)
 
 user = User("Dave Bowman", "19710315")
-print(User.age())
+print(user.age())
